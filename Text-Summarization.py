@@ -18,7 +18,7 @@ summarizer = load_model()
 st.title("📝 Text Summarizer App")
 
 # Text input area for user to paste content
-text = st.text_area("Paste your text here:(limit max 150 Words)", height=300)
+text = st.text_area("Paste your text here:( max 150 Words)", height=300)
 
 # Button to trigger summarization
 if st.button("Summarize"):
